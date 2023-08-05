@@ -7,7 +7,7 @@ author:     (作者名)
 header-img: img/the-first.png
 catalog:   true
 tags:
-    - 往事如烟
+    - 学习资料
 ---
 
 # ACM模板

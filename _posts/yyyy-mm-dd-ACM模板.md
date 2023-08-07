@@ -4,7 +4,7 @@ title:      ACM模板
 subtitle:   模板
 date:       2023-08-05
 author:     Kada-Duck
-header-img: img/the-first.png
+header-img: 
 catalog:   true
 tags:
     - 学习资料

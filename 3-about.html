@@ -1,10 +1,10 @@
-<!--
+<!-- -->
 
 
 ---
 layout: page
 title: "About"
-description: "为了让更多中国人能融入国际语运动而作"
+description: "CTF和ACM学习笔记"
 header-img: "img/post-bg-rwd.jpg"
 ---
 
@@ -19,22 +19,13 @@ header-img: "img/post-bg-rwd.jpg"
 
     <!--copied from markdown -->
     <blockquote><p>冰冻三尺 非一日之寒<br>
-    积土成山 非斯须之作</p></blockquote>
+        积土成山 非斯须之作</p></blockquote>
 
-    <p>Hi，我是<strong>Dr. Henri Jambo</strong>，现旅居世界上著名的多元文化城市——蒙特利尔。在魁北克，我们不仅感受到英语、法语的强烈冲突，甚至也能感受到阿拉伯语、中文等多种语言的相互碰撞。</p>
+    <p>May my contributions propel us forward on our path of growth and progress!</p>
 
-    <p>同时我深知中国也许是世界上英语学习人均投入最多的国家，但中国人学好英语的不多，社会资源浪费很大。</p>
-    
-    <p>为了让全世界都有一门共同的、简单的外语可以学习，降低外语学习的成本并让大家相互沟通更容易，我设计了这门中西融合的人造国际语。</p>
-    
-    <p>她是对世界语和其他国际语的传承，也希望她能超越世界语。</p>
-    
-    <p>希望更多的人加入到这个社群中，共同成长。这是新的希望！</p>
-
-    <p>本网站为三叶语官方网站。您也可关注知乎专栏<a href="https://zhuanlan.zhihu.com/Artificial-International-Language">👉人造国际语</a>。如果您有什么建议，欢迎提出探讨~</p>
 
     <p></p>
-    
+
 </div>
 
 <!-- English Version -->
@@ -42,11 +33,7 @@ header-img: "img/post-bg-rwd.jpg"
     <blockquote><p>Yet another iOS Developer. <br>
     Yet another Life-long Student.</p></blockquote>
 
-    <p>Hi, I am <strong>Baiying Qiu</strong>，you can call me <strong>BY</strong>. I am an iOS software engineer and currently working in Xiamen</p>
 
-    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/qiubaiying">Github·BY</a>.</p>
-    
-    <p>I am a sports enthusiast, I like fitness, running and boxing.</p>
 
     <h5>Talks</h5>
 
@@ -76,7 +63,7 @@ header-img: "img/post-bg-rwd.jpg"
             $select.selectedIndex = 1;
             $en.style.display = "block";
             $zh.style.display = "none";
-        // zh by default
+            // zh by default
         }else{
             // not trigger onChange, otherwise cause a loop call.
             $select.selectedIndex = 0;
@@ -106,14 +93,14 @@ header-img: "img/post-bg-rwd.jpg"
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 
 <div id="gitalk-container"></div>
-    <script type="text/javascript">
+<script type="text/javascript">
     var gitalk = new Gitalk({
-    clientID: '{{site.gitalk.clientID}}',
-    clientSecret: '{{site.gitalk.clientSecret}}',
-    repo: '{{site.gitalk.repo}}',
-    owner: '{{site.gitalk.owner}}',
-    admin: ['{{site.gitalk.admin}}'],
-    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
+        clientID: '{{site.gitalk.clientID}}',
+        clientSecret: '{{site.gitalk.clientSecret}}',
+        repo: '{{site.gitalk.repo}}',
+        owner: '{{site.gitalk.owner}}',
+        admin: ['{{site.gitalk.admin}}'],
+        distractionFreeMode: {{site.gitalk.distractionFreeMode}},
     id: 'about',
     });
     gitalk.render('gitalk-container');
@@ -121,7 +108,7 @@ header-img: "img/post-bg-rwd.jpg"
 {% endif %}
 <!-- Gitalk end -->
 
- <!-- disqus 评论框 start  -->
+<!-- disqus 评论框 start  -->
 {% if site.disqus.enable %}
 
 <div class="comment">
@@ -146,4 +133,4 @@ header-img: "img/post-bg-rwd.jpg"
 <!-- disqus 公共JS代码 end -->
 {% endif %}
 
--->
+
